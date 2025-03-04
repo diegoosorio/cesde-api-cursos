@@ -1,7 +1,10 @@
 package com.cesde.api.cursos.dto;
 
+import lombok.Data;
+
 import java.time.LocalDateTime;
 
+@Data
 public class CursoDTO {
     private Long id;
     private String nombre;
